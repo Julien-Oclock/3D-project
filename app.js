@@ -1,5 +1,5 @@
 import { AmbientLight, PerspectiveCamera, Scene, WebGLRenderer } from 'three'
-import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
+//import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
 //import { GLTFLoader } from 'three/examples/js/loaders/GLTFLoader'
 import './style.css'
 
@@ -54,7 +54,7 @@ const init =() => {
 
 const animate = () => {
     requestAnimationFrame(animate)
-    house.rotation.z += 0.01;
+    house.rotation.z += 0.04;
     renderer.render(scene, camera)
 }
 
