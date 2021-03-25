@@ -1,8 +1,34 @@
-body {
+* {
   margin : 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-canvas {
-  width: 100%;
-  height: 100%;
+body {
+  overflow: hidden;
+  background-image: url('./public/back4.svg');
+  display: flex;
+  font-family: 'Bangers', cursive;
+
+
+}
+
+.title {
+  padding : 5rem;
+ 
+  color: white;
+  font-size : 2.2rem;
+  font-size : 500;
+  width: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+.scene,
+canvas{
+  position : absolute;
+  width : 100%;
+  height : 100%;
 }
